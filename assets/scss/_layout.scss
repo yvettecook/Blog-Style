@@ -34,7 +34,7 @@
     text-transform: uppercase;
     letter-spacing: 4px;
     color: $black-30;
-    font-size: 80%;
+    font-size: 80%;   
 }
 
 
@@ -42,6 +42,20 @@
     img {
         margin: 0 auto 3em auto;
     }
+}
+
+.navigation ul {
+    width: 730px;
+    margin: 0 auto;
+    margin-bottom: 0em;
+    position: relative;
+    height: 33px;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+
 }
 
 

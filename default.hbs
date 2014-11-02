@@ -57,6 +57,14 @@
         {{! The header }}
         <header id="site-header">
             <div class="container">
+                <div class="navigation">
+                    <ul id="blog-menu">
+                        <li><a href="#" id="about_me">About Me</a></li>
+                        <li><a href="/" title="Posts">Posts</a></li>
+                        <li><a href="https://github.com/yvettecook" title="Github_link">GitHub</a></li>
+                        <li><a href="#" title="">CV</a></li>
+                    </ul>
+                </div>
                 {{#if @blog.logo}}<a id="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>{{/if}}
                 <a href="{{@blog.url}}"  alt="Blog Title"><h1 class="blog-title heading">{{@blog.title}}</h1></a>
                 <p class="blog-description">{{@blog.description}}</p>
