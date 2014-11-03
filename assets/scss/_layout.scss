@@ -44,19 +44,31 @@
     }
 }
 
-.navigation ul {
-    width: 730px;
-    margin: 0 auto;
-    margin-bottom: 0em;
-    position: relative;
-    height: 33px;
-    padding: 0;
-    list-style-type: none;
-    text-align: center;
-    font-size: 2em;
-    font-weight: 700;
+.navigation {
+    border-top-color: #b3b3b3;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-bottom-color: #b3b3b3;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding-top: 23px;
+    margin-top: 1em;
+    margin-bottom: 6em;  }
 
-}
+.navigation #blog-menu li {
+      width: 730px;
+      margin: 0 auto;
+      margin-bottom: 0em;
+      position: relative;
+      height: 33px;
+      padding-left:20px;
+      padding-right: 90px; 
+      display: inline;
+      list-style-type: none;
+      text-align: center;
+      font-size: 1em;
+      font-weight: 700;
+        text-transform: uppercase; } 
 
 
 // -------------------------------------------------------------------------
